@@ -65,6 +65,7 @@ class BluetoothManager(
                 val bytes = inputStream?.read(buffer) ?: break
                 if (bytes > 0) {
                     val receivedChar = buffer[0].toInt().toChar()
+                    Log.i("BluetoothManager", "Received char: $receivedChar")
                     onCharReceived(receivedChar)
                 }
             }
