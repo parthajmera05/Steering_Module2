@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Steering_module</string>
+    <string name="accessibility_service_desc">Accessibility service for Bluetooth-based steering control</string>
+
+</resources>
